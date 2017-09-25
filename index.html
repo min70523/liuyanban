@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		body{			
+			background: #e0e4f0;
+		}		
+		.box{
+			width: 600px;
+			height: 300px;
+			margin: 20px  auto 50px ;
+			padding: 20px 10px;
+			background: #D6D6E2;
+			box-shadow: 0 0  15px -2px rgba(0, 0, 0, 0.3);
+		}
+		.title{
+			width: 100%;
+			height: 95px;
+		}
+		h3{
+			font-size: 26px;
+			color: ;
+			float: left;
+		}
+		.liuyan{
+			width: 100%;
+			height: 150px;
+			margin-right: 2px ;
+			margin-bottom: 10px;
+		}
+		#liuyan{
+			width: 100%;
+			height: 100%;
+			resize: none;
+			background: #BACBE7;
+			border: 1px solid #353153;
+			box-sizing: border-box;
+			border-radius: 10px;
+
+		}
+		#liuyan:focus{
+			border-radius: 10px;
+		}
+		.tijiao{
+			width: 70px;
+			height: 30px;
+			float: right;
+		}
+		button{
+			width: 100%;
+			height: 100%;
+			border: 0;
+			border-radius: 3px;
+			background: #FFC09F;
+			color: #fff;
+			font-size: 12px;
+		}
+		.list{
+			width: 600px;
+			height: 150px;
+			padding: 20px 10px;
+			margin: 0 auto;
+			background: #D6D6E2;
+		}
+		.box p{
+			float: right;
+			line-height: 56px;
+			opacity: 0;
+		}
+		.box span{
+			font-size: 14px;
+			color: ;
+		}
+		.list{
+			width: 582px;
+			padding: 20px;
+			box-shadow: 0 0  15px -2px rgba(0, 0, 0, 0.3);
+		}
+		.listText{
+			width:563px;
+			height: 80px;
+			background: #BACBE7;		
+			font-size: 14px;
+			border-radius: 3px;
+			padding: 10px;
+
+		}
+		h6{
+			color: #808080;
+			opacity: 0;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="title">
+			<h3>有什么新鲜事想告诉大家?</h3><p>还可输入<span>0</span>字</p>
+		</div>
+		<div class="liuyan">
+			<textarea name="" id="liuyan" cols="30" rows="10" maxlength="140" ></textarea>
+		</div>
+		<div class="tijiao"> 
+			<button>发布</button>
+		</div>
+	</div>
+	<div class="list"><h6>50秒前 来自 微博 weibo.com</h6></div>
+	<script src="js/functions.js"></script>
+	<script src="js/liuyan.js"></script>
+</body>
+</html>
